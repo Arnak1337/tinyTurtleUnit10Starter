@@ -12,27 +12,27 @@ right(90);
 forward(50);
 }
 
-function triangle(){
-    forward(75);
+function triangle(size){
+    forward(size);
     right(120);
-    forward(75);
+    forward(size);
     right(120);
-    forward(75);
+    forward(size);
     right(120);
 }
 
-function rectangle(){
+function rectangle(size){
 left(90);
-forward(50);
+forward(size);
 left(90);
-forward(70);
+forward(size);
 left(90);
-forward(50);
+forward(size);
 left(90);
-forward(70);
+forward(size);
 }
 // Type your function call below
 square();
-rectangle();
-triangle();
+rectangle(70);
+triangle(80);
 stamp();
